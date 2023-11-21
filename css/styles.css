@@ -63,6 +63,7 @@ body {
 }
 
 /*--------------- MOBILE STYLES------------*/
+
 @media screen and (min-width: 320px) {
     .container {
         width: 320px;
@@ -70,7 +71,7 @@ body {
     }
 }
 
-/* ------------------=== HEADER MOBILE STYLES ------------------=== */
+/* ----------------- HEADER MOBILE STYLES -----------------*/
 .menu,
 .contacts {
     display: none;
@@ -1090,12 +1091,11 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     .header-wrapper {
         display: flex;
         align-items: center;
+        justify-content: space-between;
     }
 
     .header-navigation {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        padding: 24px 0;
     }
 
     .contacts {
@@ -1185,7 +1185,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 
 }
 
-/* DESKTOP ---------------------- DESCTOP -------------------- DESKTOP */
+/* DESKTOP ---------------------- DESKTOP -------------------- DESKTOP */
 
 
 @media screen and (min-width: 1158px) {
