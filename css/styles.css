@@ -72,6 +72,7 @@ body {
 }
 
 /* ----------------- HEADER MOBILE STYLES -----------------*/
+
 .menu,
 .contacts {
     display: none;
@@ -95,7 +96,6 @@ body {
 }
 
 .header-navigation {
-
     padding: 24px 0;
 }
 
