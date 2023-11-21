@@ -84,6 +84,12 @@ body {
     justify-content: space-between;
 }
 
+.header-navigation {
+    padding: 24px 0;
+    display: flex;
+}
+
+
 .logotype {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -95,9 +101,7 @@ body {
     color: #4d5ae5;
 }
 
-.header-navigation {
-    padding: 24px 0;
-}
+
 
 .logotype-span-studio {
     color: #2e2f42;
