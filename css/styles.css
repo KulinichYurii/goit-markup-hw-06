@@ -760,7 +760,7 @@ input::placeholder {
 
     /* ---------- BURGER FORM MOBILE --------- */
 
-    .mobile-burger-menu {
+    .mobile-menu {
         position: fixed;
         padding: 72px 24px 40px 16px;
         top: 0;
@@ -775,7 +775,7 @@ input::placeholder {
         flex-direction: column;
     }
 
-    .mobile-burger-menu.is-open-burger {
+    .mobile-menu.is-open-mobile {
         transform: translateX(0%);
     }
 
@@ -1121,7 +1121,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
         color: #404bbf;
     }
 
-    .mobile-burger-menu {
+    .mobile-menu {
         display: none;
     }
 
