@@ -758,7 +758,7 @@ input::placeholder {
 
 @media screen and (max-width: 767px) {
 
-    /* ---------- BURGER FORM MOBILE --------- */
+    /* ---------- mobile FORM MOBILE --------- */
 
     .mobile-menu {
         position: fixed;
@@ -779,16 +779,16 @@ input::placeholder {
         transform: translateX(0%);
     }
 
-    .burger-nav {
+    .mobile-nav {
         margin-bottom: auto;
     }
 
-    .contacts-burger {
+    .contacts-mobile {
         font-style: normal;
         font-size: 20px;
     }
 
-    .burger-links {
+    .mobile-links {
         color: #2e2f42;
         font-size: 36px;
         font-style: normal;
@@ -797,36 +797,36 @@ input::placeholder {
         letter-spacing: 0.02em;
     }
 
-    .menu-burger-list-item:not(:last-child) {
+    .menu-mobile-list-item:not(:last-child) {
         margin-bottom: 40px;
     }
 
-    .contacts-burger-list-item:not(:last-child) {
+    .contacts-mobile-list-item:not(:last-child) {
         margin-bottom: 24px;
     }
 
-    .contacts-burger-item-link:hover,
-    .contacts-burger-item-link:focus {
+    .contacts-mobile-item-link:hover,
+    .contacts-mobile-item-link:focus {
         color: #4d5ae5;
     }
 
-    .active-burger {
+    .active-mobile {
         position: relative;
         color: #404bbf;
     }
 
-    .burger-links:hover,
-    .burger-links:focus {
+    .mobile-links:hover,
+    .mobile-links:focus {
         color: #4d5ae5;
     }
 
-    .burger-social-links {
+    .mobile-social-links {
         margin-top: 48px;
         display: flex;
         gap: 40px;
     }
 
-    .close-burger {
+    .close-mobile {
         position: absolute;
         top: 24px;
         right: 24px;
@@ -843,8 +843,8 @@ input::placeholder {
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .close-burger:hover,
-    .close-burger:focus {
+    .close-mobile:hover,
+    .close-mobile:focus {
         background-color: #404bbf;
         border: none;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
